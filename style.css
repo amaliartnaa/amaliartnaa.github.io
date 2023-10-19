@@ -1,0 +1,105 @@
+.navbar {
+    position: sticky;
+    z-index: 9999;
+    background-color: #F4F2EF;
+    top: 0;
+}
+
+
+.part-1 {
+    background-color: #F4F2EF;
+}
+
+.separate-row {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.smaller-image {
+    max-width: 130%;
+    height: auto;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contact .question, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1 {
+    color: #006041;
+    font-weight: 700;
+}
+
+.contact .question {
+    margin-bottom: 30px;
+    color: #888888;
+    font-weight: 700;
+}
+
+.contact .info-item {
+    background-color: #006041;
+    color: #F4F2EF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact .info-item i, p {
+    display: flex;
+}
+
+.contact .info-item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.contact .info-item p {
+    padding: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.contact .email-form{
+    padding: 30px;
+    height: 100%;
+}
+
+.contact .email-form .form-control{
+    margin: 15px;
+    
+}
+
+.contact .email-form button {
+    background-color: #006041;
+    color: #F4F2EF; 
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.footer .container {
+    position: relative;
+}
+
+.footer .row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 740px) {
+    
+
+    .contact .email-form{
+        justify-content: center;
+        align-items: center;
+    }
+}
