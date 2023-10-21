@@ -66,6 +66,71 @@
     width: 600px;
 }
 
+
+.part-2 button {
+    border-style: none;
+    border-radius: 20px;
+    background-color: #006041;
+    color: #F4F2EF;
+    padding: 12px;
+    width: 140px;
+}
+
+/* menu */
+
+#menu h1 {
+    color: #006041;
+    font-size: 100px;
+    font-weight: 700;
+}
+/* #menu .container {
+    justify-content: space-between;
+} */
+
+/* .menu .header {
+    justify-content: center;
+    align-items: center;
+} */
+.menu-item img {
+    width: 160px;
+    margin-top: 20px;
+    border-radius: 8px;
+    
+}
+
+.menu-description {
+    padding: 20px;
+    background-color: #F4F2EF;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.menu-description h6 {
+    font-size: 20px;
+    color: #006041;
+}
+
+.menu-description p {
+    font-size: 13px;
+    color: #000;
+    margin-top: 10px;
+}
+
+/* collaboration */
+
+#collaboration h1 {
+    font-size: 80px;
+    color: #006041;
+}
+
+
+#collaboration img {
+    max-width: 50%;
+}
+
+
+
 /* Contact */
 
 .contact {
