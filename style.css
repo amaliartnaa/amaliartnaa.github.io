@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    
 }
 
 .home .col-lg-6 {
@@ -178,6 +178,15 @@ body {
     font-weight: 500;
     color:#97a259;
 }
+
+.collaboration .container img {
+    transition: 0.3s;
+}
+
+.collaboration .container img:hover {
+    transform: scale(1.1);
+}
+
 .collaboration img {
     width: 250px;
 }
