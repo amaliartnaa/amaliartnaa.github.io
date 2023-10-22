@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,13 +27,16 @@
                     <a href="#home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About Us</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu" class="nav-link">Menu</a>
                 </li>
                 <li class="nav-item">
                     <a href="#collaboration" class="nav-link">Collaboration</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -42,74 +46,79 @@
     </nav>
 
     <!-- Home -->
-    <div id="home">
-        <div class="row part-1">
-            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0" style="margin-top: 200px;">
-                <h1>Grind The Essentials</h1>
-                <h5>Made with Indonesia's Finest Beans for your everyday modern coffee experience</h5>
-            </div>                
-            <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                <img src="img/bg-home.png" alt="forecoffee" class="img-fluid">
-            </div>
-            </div>
-        </div>
-        <div class="row bg-light p-3">
-            <div class="row part-2">
-                <div class="col-md-6">
-                    <h1>Our Story</h1>
-                    <img src="img/bg-home2.png" alt="" class="img-fluid mr-3">
+    <div id="home" class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Grind The Essentials</h1>
+                    <h5>Made with Indonesia's Finest Beans for your everyday modern coffee experience</h5>
+                </div>                
+                <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                    <img src="img/bg-home.png" alt="forecoffee" class="img-fluid">
                 </div>
-                <div class="col-md-5">
-                    <p>
-                        Established in 2018, Fore Coffee is a passionate coffee startup aiming to brew the best specialty coffee for our customers. As our name is derived from the word "forest," we aim to grow fast, strong, tall, and bring life to our surroundings. We want our existence to increase coffee quality for our community.
-                        <br><br>
-                        Leveraging network and experience, we are using the latest tech for our tools and bean blend. Directly from the selected farmer, high-quality beans are processed and roasted to perfection by ourselves, then passed on to our skilled baristas, excitedly preparing the cup of happiness to be served to you.
-                    </p>
-                    <button>Read More</button>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
 
-    <!-- About Us -->
-    <div id="about">
-        <h6>About Fore</h6>
-        <p>Get to know about us, stores, environment, and people behind it!</p>
-        <h6>Our Story</h6>
-        <h1>Grind The Essentials</h1>
-        <p>
-            a fast-paced world it is easy to lose sight of what truly matters. Fore provides a place of solace where people can simply slow down and enjoy a high-quality cup of coffee. This philosophy is reflected within our tagline.
-            <br>
-            <br>
-            By utilizing the word ‘Grind’ which has a double meaning: ‘Grind’ as in the day-to-day hustle that people go through, and ‘Grind’ as a key step in the coffee making process, Fore inspires people to embrace life’s essentials in the midst of their busy lifestyles through each cup of coffee we serve.
-        </p>
+    <!-- About -->
+    <div id="about" class="about">
+        <div class="container-fluid story-content">
+            <div class="row bg-light p-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Our Story</h1>
+                        <img src="img/bg-home2.png" alt="" class="img-fluid mr-3">
+                    </div>
+                    <div class="col-md-5">
+                        <p>
+                            Established in 2018, Fore Coffee is a passionate coffee startup aiming to brew the best specialty coffee for our customers. As our name is derived from the word "forest," we aim to grow fast, strong, tall, and bring life to our surroundings. We want our existence to increase coffee quality for our community.
+                            <br><br>
+                            Leveraging network and experience, we are using the latest tech for our tools and bean blend. Directly from the selected farmer, high-quality beans are processed and roasted to perfection by ourselves, then passed on to our skilled baristas, excitedly preparing the cup of happiness to be served to you.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container grind-essential">
+            <div class="row">
+                <div class="col">
+                    <p>a fast-paced world it is easy to lose sight of what truly matters. Fore provides a place of solace where people can simply slow down and enjoy a high-quality cup of coffee. This philosophy is reflected within our tagline.</p>
+                    <p>By utilizing the word ‘Grind’ which has a double meaning: ‘Grind’ as in the day-to-day hustle that people go through, and ‘Grind’ as a key step in the coffee making process, Fore inspires people to embrace life’s essentials in the midst of their busy lifestyles through each cup of coffee we serve.</p>
+                </div>
+                <div class="col">
+                    <h1>"Grind The Essentials"</h1>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Menu-->
-    <div id="menu">
-        <!-- <img src="img/our-menu2.png" alt="" class="header"> -->
+    <div id="menu" class="menu">
         <h1>Our Menu</h1>
-        <div class="container">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-md-2">
                     <div class="menu-item">
                         <img src="img/nutty-oat.jpeg" alt="Nutty Oat Latte">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Nutty Oat Latte</h6>
                         <p><strong>Price:</strong> Rp 39.000</p>
                         <p>Espresso dari biji kopi khas nusantara dipadukan susu oat gluten-free dan sensasi nutty dari hazelnut.</p>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 right">
                     <div class="menu-item">
                         <img src="img/iced-classic-latte.jpg" alt="Iced Classic Latte">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Iced Classic Latte</h6>
                         <p><strong>Price:</strong> Rp 24.000</p>
@@ -123,19 +132,19 @@
                         <img src="img/salted-caramel-iced.jpg" alt="Iced Salted Caramel Mocha">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Iced Salted Caramel Mocha</h6>
                         <p><strong>Price:</strong> Rp 33.000</p>
                         <p>Perpaduan coklat, latte dari house blend Fore, dan gurihnya caramel</p>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 right">
                     <div class="menu-item">
                         <img src="img/iced-cappucino.jpg" alt="Iced Classic Latte">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Iced Cappucino</h6>
                         <p><strong>Price:</strong> Rp 29.000</p>
@@ -149,19 +158,19 @@
                         <img src="img/double-iced-shaken-latte.jpg" alt="Double Iced Shaken Latte">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Double Iced Shaken</h6>
                         <p><strong>Price:</strong> Rp 33.000</p>
                         <p>Paduan klasik 2 shot espresso dengan susu dan krim</p>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 right">
                     <div class="menu-item">
                         <img src="img/cafe-latte-iced.jpg" alt="Iced Café Latte">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="menu-description">
                         <h6>Iced Café Latte</h6>
                         <p><strong>Price:</strong> Rp 29.000</p>
@@ -173,32 +182,148 @@
     </div>
 
     <!-- Collaboration-->
-    <div id="collaboration">
-        <h1>Collaboration</h1>
-        <p>
-            We cater to Indonesian millenials with limitless exploration of drinks Grind the Essentials will runs in the vein of our brands, from drinks, to high quality products and more essentials services
-        </p>
+    <div id="collaboration" class="collaboration">
+        <div class="container-fluid">
+            <h1>Collaboration</h1>
+            <div class="container-sm">
+                <p>
+                    We cater to Indonesian millenials with limitless exploration of drinks Grind the Essentials will runs in the vein of our brands, from drinks, to high quality products and more essentials services
+                </p>
+            </div>
+        </div>
+        
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <img src="img/citilink.png" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col">
                     <img src="img/laneige.png" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col">
                     <img src="img/omaelly.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/waltdisney.png" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="img/waltdisney.png" alt="">
-                </div>
-                <div class="col-md-4">
+                <div class="col">
                     <img src="img/bobobox.png" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col">
                     <img src="img/greenrebel.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/magnum.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/amanda.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/tantrina.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/titan.png" alt="">
+                </div>
+                <div class="col-md-auto">
+                    <img src="img/tyna-dwi.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h1>What They Say About</h1>
+                    <p>Our Succesful Collaboration</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial-item">
+                            <p style="padding-bottom: 105px;">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Kami sangat mengapresiasi inisiatif dari Fore Coffee untuk berkolaborasi bersama dalam kampanye ini. Semoga kolaborasi kami dengan Fore Coffee bisa menginspirasi banyak pihak terutama dalam melakukan kampanye kebaikan.
+                            </p>
+                            <img src="img/testimonial-1.png" class="testimonial-img" alt="">
+                            <h3>Sumanda Tondang</h3>
+                            <h4>Director of Fund Development & Communication at SOS Children’s Villages</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Fore Coffee is one of the best merchants that I ever handled as a key account manager. we had a great journey to create some collaborations such as Exclusive Seasonal Menu, Percaya Projex, etc. The team was really helpful, organized, and had a fast response to coordinate everything.
+                            </p>
+                            <img src="img/testimonial-2.png" class="testimonial-img" alt="">
+                            <h3>Devi Alfilovita</h3>
+                            <h4>Key Account Manager at GrabFood</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Fore Coffee is one of the most important GoFood merchants. As a partner, Fore is a very collaborative merchant because, during the pandemic when all businesses were sluggish, we were able to collaborate to rebuild from scratch in order to turn around the business and achieve tremendous growth.
+                            </p>
+                            <img src="img/testimonial-3.png" class="testimonial-img" alt="">
+                            <h3>Nina Sudianto</h3>
+                            <h4>Enterprise Merchant Partnerships at GoFood</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Meet Our Experts</h2>
+            </div>
+    
+            <div class="row">
+    
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="img/team-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Vico Lomar</h4>
+                            <span>CEO of Fore Coffee</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="img/team-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Umara Ardra</h4>
+                            <span>Chief of Staff</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="img/team-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Matthew Ardian</h4>
+                            <span>Chief Marketing Officer</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -215,39 +340,48 @@
                     <div class="info-item">
                         <h4>Contact Information</h4>
                         <p>Should you have any question or concern, you can reach us by filling out the contact form, calling us, coming to our office,  finding us on other social networks, or you can personal email us at :</p>
-                        
-                        <i class="fa-solid fa-phone-volume">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="info-details">
                             <p>0812-1111-8456</p>
-                        </i>
-                        
-                        
-                        
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>hello@fore.coffee</p>
-                        
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Gedung Graha Ganesha, Lantai 1 Suite 120 & 130</p>
-                        <p>Jl. Hayam Wuruk No. 28 RT 014/ RW 001, Kelurahan Kebon Klapa, Kecamatan Gambir, Jakarta Pusat, DKI Jakarta</p>
+                        </div>
+                        <div class="info-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <p>hello@fore.coffee</p>
+                        </div>
+                        <div class="info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info-details">
+                            <p>
+                                Gedung Graha Ganesha, Lantai 1 Suite 120 & 130
+                                <br>
+                                Jl. Hayam Wuruk No. 28 RT 014/ RW 001, Kelurahan Kebon Klapa, Kecamatan Gambir, Jakarta Pusat, DKI Jakarta
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form action="" method="post" class="email-form">
+                    <form action="contact-form" method="post" class="email-form" onsubmit="return validateForm();" id="contact-form">
                     <div class="row gy-4">
                         <div class="col-md-12">
                             <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name">
                         </div>
                         <div class="col-md-12 ">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            <input type="email" class="form-control" name="email" placeholder="Your Email">
                         </div>
                         <div class="col-md-12">
                             <label for="subject">Subject</label>
-                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" name="subject" placeholder="Subject">
                         </div>
                         <div class="col-md-12">
                             <label for="message">Message</label>
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
                         </div>
                         <div class="col-md-12 text-center">
                             <button type="submit">SEND</button>
@@ -283,6 +417,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
