@@ -19,7 +19,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .home .col-lg-6 {
@@ -359,16 +358,16 @@ body {
     border-radius: 10px;
 }
 
-.contact .info-icon {
+.contact .info-icon{
     display: flex;
     width: 30px;
-    text-align: center;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 .contact .info-details {
     display: flex;
     vertical-align: top;
+    margin-right: 40px;
 }
 
 .contact .info-item h4 {
@@ -414,6 +413,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.footer .col-md-12 {
+    text-align: center;
 }
 
 @media (max-width: 767px) {
